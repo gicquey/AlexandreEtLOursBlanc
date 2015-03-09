@@ -47,6 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AnimationScript.cs" />
+     <Compile Include="Assets\Scripts\ChildCollider.cs" />
+     <Compile Include="Assets\Scripts\Jeu5BonOurs.cs" />
+     <Compile Include="Assets\Scripts\Jeu5MauvaisOurs.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
  </Reference>

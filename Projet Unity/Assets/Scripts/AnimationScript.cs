@@ -26,6 +26,6 @@ public class AnimationScript : MonoBehaviour {
 	}
 
 	void OnMouseExit(){
-			animator.SetBool("MouseOver", false);
+		animator.SetBool("MouseOver", false);
 	}
 }
