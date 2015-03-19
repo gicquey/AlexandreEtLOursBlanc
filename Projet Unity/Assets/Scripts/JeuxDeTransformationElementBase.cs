@@ -2,9 +2,9 @@ using UnityEngine;
 using System.Collections;
 using AssemblyCSharp;
 
-public class Jeu3ElementBase : MonoBehaviour
+public class JeuxDeTransformationElementBase : MonoBehaviour
 {
-	public GameObject elementSimplifie;
+	public GameObject elementTransforme;
 	public GameObject scorer;
 	// Use this for initialization
 	void Start ()
@@ -19,7 +19,7 @@ public class Jeu3ElementBase : MonoBehaviour
 
 	void OnMouseUp()
 	{
-		Controleur.EmpilerExecuter(new CommandeTransformation(gameObject,elementSimplifie,scorer));
+		Controleur.EmpilerExecuter(new CommandeTransformation(gameObject,elementTransforme,scorer));
 	}
 }
 

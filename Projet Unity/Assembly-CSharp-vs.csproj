@@ -47,18 +47,21 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Classes utilitaires\Commande.cs" />
+     <Compile Include="Assets\Classes utilitaires\CommandeJeu1.cs" />
      <Compile Include="Assets\Classes utilitaires\CommandeTransformation.cs" />
      <Compile Include="Assets\Classes utilitaires\Controleur.cs" />
      <Compile Include="Assets\Classes utilitaires\NavigateurScenes.cs" />
+     <Compile Include="Assets\Scripts\Afficheur.cs" />
      <Compile Include="Assets\Scripts\AnimationScript.cs" />
      <Compile Include="Assets\Scripts\ChildCollider.cs" />
      <Compile Include="Assets\Scripts\CoinDroit.cs" />
      <Compile Include="Assets\Scripts\CoinGauche.cs" />
-     <Compile Include="Assets\Scripts\Jeu3ElementBase.cs" />
-     <Compile Include="Assets\Scripts\Jeu3Scorer.cs" />
+     <Compile Include="Assets\Scripts\Jeu1Cliquables.cs" />
      <Compile Include="Assets\Scripts\Jeu5BonOurs.cs" />
      <Compile Include="Assets\Scripts\Jeu5MauvaisOurs.cs" />
+     <Compile Include="Assets\Scripts\JeuxDeTransformationElementBase.cs" />
      <Compile Include="Assets\Scripts\Laniere.cs" />
+     <Compile Include="Assets\Scripts\Scorer.cs" />
      <Compile Include="Assets\Scripts\Trousse.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>

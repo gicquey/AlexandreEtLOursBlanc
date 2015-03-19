@@ -21,23 +21,31 @@ namespace AssemblyCSharp
 		{
 			indexCourant = 0;
 			scenesOrdonnees = new List<String>();
+			scenesOrdonnees.Add("Jeu 1");
 			scenesOrdonnees.Add("Jeu 3");
+			scenesOrdonnees.Add("Jeu 4");
 			scenesOrdonnees.Add("Jeu 5");
 			scenesOrdonnees.Add("Scene fin");
 		}
 
 		public static void ChargerSceneSuivante()
 		{
-			indexCourant++;
 			Controleur.ViderPile ();
-			Application.LoadLevel(scenesOrdonnees[indexCourant]);
+			if (indexCourant < scenesOrdonnees.Count - 1) 
+			{
+				indexCourant++;
+				Application.LoadLevel (scenesOrdonnees [indexCourant]);
+			}
 		}
 
 		public static void ChargerScenePrecedente()
 		{
-			indexCourant--;
 			Controleur.ViderPile ();
-			Application.LoadLevel(scenesOrdonnees[indexCourant]);
+			if (indexCourant > 0) 
+			{
+				indexCourant--;
+				Application.LoadLevel (scenesOrdonnees [indexCourant]);
+			}
 		}
 
 		public static void TerminerJeu()

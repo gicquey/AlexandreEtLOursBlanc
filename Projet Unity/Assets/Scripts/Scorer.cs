@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 using AssemblyCSharp;
 
-public class Jeu3Scorer : MonoBehaviour
+public class Scorer : MonoBehaviour
 {
 	public int scoreMax=10;
 	private int score;
