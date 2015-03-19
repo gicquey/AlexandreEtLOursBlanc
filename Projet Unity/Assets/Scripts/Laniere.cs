@@ -2,25 +2,24 @@ using UnityEngine;
 using System.Collections;
 using AssemblyCSharp;
 
-public class CoinGauche : MonoBehaviour
+public class Laniere : MonoBehaviour
 {
-
+	
 	// Use this for initialization
 	void Start ()
 	{
-	
+		
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
-	
+		
 	}
-
+	
 	void OnMouseUp()
 	{
-		NavigateurScenes.ChargerScenePrecedente ();
-		//+charger scene precedente
+		NavigateurScenes.TerminerJeu ();
+		//+Charger scene suivante
 	}
 }
-

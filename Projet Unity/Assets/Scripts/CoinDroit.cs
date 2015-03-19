@@ -19,7 +19,7 @@ public class CoinDroit : MonoBehaviour
 
 	void OnMouseUp()
 	{
-		Controleur.ViderPile ();
+		NavigateurScenes.ChargerSceneSuivante ();
 		//+Charger scene suivante
 	}
 }

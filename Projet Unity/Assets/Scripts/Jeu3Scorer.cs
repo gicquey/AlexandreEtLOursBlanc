@@ -23,7 +23,7 @@ public class Jeu3Scorer : MonoBehaviour
 		score++;
 		if (score == scoreMax) 
 		{
-			Controleur.ViderPile ();
+			NavigateurScenes.ChargerSceneSuivante();
 			Debug.Log ("GAGNE !");
 			//Ajouter transision scene suivante.
 		}

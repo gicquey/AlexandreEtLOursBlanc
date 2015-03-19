@@ -1,4 +1,5 @@
 using UnityEngine;
+using AssemblyCSharp;
 using System.Collections;
 
 public class Jeu5BonOurs : MonoBehaviour
@@ -18,14 +19,14 @@ public class Jeu5BonOurs : MonoBehaviour
 
 	void OnMouseUp()
 	{
-		//TRALALA c'est la fiesta ! (transition + message victoire)
+		NavigateurScenes.ChargerSceneSuivante();
 		Debug.Log ("GAGNE !");
 	}
 
 	void OnClicMauvaisOurs()
 	{
 		if (suivant == null) {
-			//PERDU ! (transition + message d'insultes + humiliation publique + honte au joueur sur 3 générations)
+			NavigateurScenes.ChargerSceneSuivante();
 			Debug.Log ("PERDU !");
 		} 
 		else 
