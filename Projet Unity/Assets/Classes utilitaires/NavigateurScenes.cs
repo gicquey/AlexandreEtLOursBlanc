@@ -22,9 +22,12 @@ namespace AssemblyCSharp
 			indexCourant = 0;
 			scenesOrdonnees = new List<String>();
 			scenesOrdonnees.Add("Jeu 1");
+			scenesOrdonnees.Add("Jeu 2");
 			scenesOrdonnees.Add("Jeu 3");
 			scenesOrdonnees.Add("Jeu 4");
 			scenesOrdonnees.Add("Jeu 5");
+			scenesOrdonnees.Add("Jeu 6");
+			scenesOrdonnees.Add("Jeu 7");
 			scenesOrdonnees.Add("Scene fin");
 		}
 
